@@ -1,19 +1,60 @@
-*{
-    /* border: solid; */
-}
+/* *{
+    border: dotted;
+    border-color: yellowgreen;
+} */
 
 body{
 display: flex;
 flex-direction: column;
+margin: 0;
 }
 
 .box1{
     background-color: #1F2937;
     color: white;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+
+}
+
+.top-section{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .box2{
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 500px;
+}
 
+.squares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 50px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.square{
+    background: white;
+    text-align: center;
+    border: 2px solid skyblue;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
 }
 
 .box3{
@@ -21,10 +62,12 @@ flex-direction: column;
 }
 
 .box4{
-    background-color: #1F2937;
+    background-color: white;
 }
 
 .box5{
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
 }
 
@@ -38,4 +81,10 @@ button {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
