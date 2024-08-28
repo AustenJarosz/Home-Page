@@ -1,7 +1,7 @@
 *{
     font-family: 'Roboto', sans-serif;
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid;
+    border-width: 1px; */
 }
 
 body{
@@ -128,7 +128,6 @@ padding: 0;
 
 .box3{
     display: flex;
-    border-style: solid;
     font-style: italic;
     font-weight:100;
     justify-content: center;
@@ -144,18 +143,39 @@ padding: 0;
     justify-content: center;
     align-items: flex-end;
     text-align: left;
-    font-weight: lighter;
+    font-weight: 100;
+}
+
+.upperquote{
+    font-weight: 100;
 }
 
 .lowerquote{
     text-align: right;
-    text
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .box4{
-    background-color: #white;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+height: 300px;
 }
 
+.sign-up-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 800px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    gap: 50px;
+}
 .box5{
     display: flex;
     justify-content: center;
@@ -170,8 +190,15 @@ button {
   
   button.continue {
     background: royalblue;
-    border: 1px solid royalblue;
+    border: 8px solid royalblue;
     color: white;
+  }
+
+  button.continue2 {
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
   }
 
   a {
